@@ -1,0 +1,23 @@
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-left: 12px;
+    color:white;
+}
+.text-token{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .address{
+        font-size: 8px;
+    }
+    .text-container{
+        text-align: left;
+    }
+}
+.text{
+    width: 60%;
+}
